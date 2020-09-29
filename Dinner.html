@@ -200,19 +200,19 @@
 									<h2>Order now</h2>
 								</div>
 								<!-- contact form -->
-								<form class="contact-form" method="post" id="contactForm" data-netlify="true">
-									<div class="row">
-										<div class="col-md-6">
-											<input type="text" placeholder="Name">
-										</div>
-										<div class="col-md-6">
-											<input type="number" placeholder="Phone number">
-										</div>
-										<div class="col-md-6">
-											<input type="email" placeholder="E-mail">
-										</div>
-										<div class="col-md-12">
-											<textarea placeholder="Your order"></textarea>
+								<form class="contact-form" method="post" action="contact_process.php" id="contactForm" data-netlify="true">
+								<div class="row">
+									<div class="col-md-6">
+										<input name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+									</div>
+									<div class="col-md-6">
+									<input  name="subject" id="number " type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Mobile number'" placeholder="Enter Mobile number">
+									</div>
+									<div class="col-md-6">
+									<input  name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+									</div>
+									<div class="col-md-12">
+										<textarea name="message" id="message" placeholder="Your order"></textarea>
 											<div class="text-center">
 												<button type="submit" class="site-btn"  onclick="popupFunction('Request form status');" >Send</button>
 										</div>

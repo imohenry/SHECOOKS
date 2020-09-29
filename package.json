@@ -1,0 +1,9 @@
+{
+  "name": "shecooks.ng",
+  "version": "1.0.0",
+  "description": "an online restaurant",
+  "repository": {
+      "type": "git",
+      "url": "https://https://github.com/imohenry/SHECOOKS"
+    }
+}
